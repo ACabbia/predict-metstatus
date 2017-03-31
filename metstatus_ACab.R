@@ -30,7 +30,7 @@ codam = data.matrix(codam)
 codam = scale(codam)
 
 #################################################################################################################
-####### unsupervised learning: embedding (PCA, T-SNE) + clustering (k-means, c-means, m-clust) ##################
+####### unsupervised learning: embedding (PCA, T-SNE) + clustering (k-means,fuzzy c-means) ##################
 #################################################################################################################
 #PCA
 PCAdata = prcomp(codam)
