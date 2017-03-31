@@ -6,7 +6,7 @@ library(FactoMineR)
 library(MASS) #lda/qda
 library(Rtsne)# T-sne dimension reduction
 
-codam <- read.csv('/home/acabbia/datasets/CODAM_dataset/Codam_dataset.csv')  
+codam <- read.csv('/') ## insert filepath   
 set.seed(666)
 ################################################################################################################
 ######### Pre-processing #######################################################################################
